@@ -19,7 +19,8 @@
 * ⇒bookのcreate機能の作成
 * ⇒bookのshowページの作成
 
-
+* 1.11
+* ⇒bookのdestroy機能の作成
 
 
 
