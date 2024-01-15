@@ -22,6 +22,13 @@
 * 1.11
 * ⇒bookのdestroy機能の作成
 
+* 1.2
+* ⇒bookのupdate機能の作成
+* ⇒bookのeditページの作成
+* ⇒bookのindexページの作成
+
+* ...レイアウト/デザインの作成中
+
 
 
 # README
