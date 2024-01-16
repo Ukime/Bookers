@@ -122,3 +122,45 @@ th {
   margin-left: 30px;
 
 }
+
+.errors-box {
+
+  margin: 15px;
+  margin-left: 30px;
+  width: 450px;
+  /*background-color: #eeeeee;*/
+  /*border: solid red;*/
+
+}
+
+.errmsgbox {
+
+
+  border: solid red;
+
+}
+
+.errtitle > b {
+
+  padding-left: 15px;
+  color: white;
+
+}
+
+.errtitle {
+
+  width: 450px;
+  background-color: #ff7f7f;
+  border-top: solid red;
+  border-left: solid red;
+  border-right: solid red;
+
+}
+
+
+.errmsgbox > ul {
+
+  padding: 10px 0;
+  margin-left: 80px;
+
+}

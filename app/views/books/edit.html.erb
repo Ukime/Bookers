@@ -1,19 +1,20 @@
 <h2>Editing Book</h2>
 
 <div class="form">
-<%= form_with model: @book do |f| %>
-<p class="ptitle">Title</p>
-<%= f.text_field :title %>
+    <%= form_with model: @book do |f| %>
+    <p class="ptitle">Title</p>
+    <%= f.text_field :title %>
 
-<p class="pbody">Body</p>
-<%= f.text_area :body %>
+    <p class="pbody">Body</p>
+    <%= f.text_area :body %>
 
-<br><%= f.submit 'Update Book', class: 'submitbtn' %>
+    <br><%= f.submit 'Update Book', class: 'submitbtn' %>
 
-<br>
-<p class="edit-links">
-<%= link_to "Show", book_path(@book.id), class: 'linkto' %> | <%= link_to "Back", books_path, class: 'linkto' %>
+    <br>
+    <p class="edit-links">
+    <%= link_to "Show", book_path(@book.id), class: 'linkto' %> | <%= link_to "Back", books_path, class: 'linkto' %>
 
-<% end %>
+    <% end %>
 
-</p>
+    </p>
+</div>
