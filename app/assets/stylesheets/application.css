@@ -119,6 +119,7 @@ th {
 
 .show-links {
 
+  margin-top: 20px;
   margin-left: 30px;
 
 }
@@ -162,5 +163,22 @@ th {
 
   padding: 10px 0;
   margin-left: 80px;
+
+}
+
+.flash-notice {
+
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 30px 0px;
+  margin-left: 30px;
+
+
+  width: 300px;
+  border-radius: 5px;
+
+  background-color: #75ffba;
+  color: #009944;
+  border: solid 1px #019a66;
 
 }
