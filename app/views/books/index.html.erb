@@ -24,13 +24,13 @@
     <td class="titletd">
         <%= book.body %>
     </td>
-    <td class="linkto">
+    <td>
         <%= link_to "Show", book_path(book.id), class: 'linkto'  %>
     </td>
-    <td class="linkto">
+    <td>
         <%= link_to "Edit", edit_book_path(book.id), class: 'linkto'  %>
     </td>
-    <td class="linkto">
+    <td>
         <%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure?", class: 'linkto'  %>
     </td>
 </tr>

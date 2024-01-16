@@ -31,8 +31,8 @@
 
 h1, h2 {
 
-  margin-top: 2%;
-  margin-left: 2%;
+  margin-top: 20px;
+  margin-left: 20px;
   color: #202020;
 
 }
@@ -79,6 +79,13 @@ th {
 
 }
 
+.linkto:hover {
+
+  background-color: black;
+  color: white;
+
+}
+
 .form {
 
   margin-top: 15px;
@@ -92,10 +99,26 @@ th {
 
   height: 25px;
 
+  margin: 10px 0;
+
 }
 
 .pbody {
 
   margin-top: 5px;
+
+}
+
+.sentence {
+
+  margin-top: 30px;
+  margin-left: 60px;
+  color: #202020;
+
+}
+
+.show-links {
+
+  margin-left: 30px;
 
 }
